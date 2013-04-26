@@ -37,7 +37,7 @@ $(call inherit-product, device/samsung/tass/full_tass.mk)
 # Override AOSP build properties
 PRODUCT_NAME := pa_tass
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := Galaxy GT-S5570
+PRODUCT_MODEL := GT-S5570
 PRODUCT_MANUFACTURER := Samsung
 
 endif
