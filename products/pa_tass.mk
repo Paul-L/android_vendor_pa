@@ -27,12 +27,20 @@ PREFS_FROM_SOURCE ?= false
 # Include ParanoidAndroid common configuration
 include vendor/pa/config/pa_common.mk
 
+# Include CM-10.1 thingys
+
+include vendor/pa/packages/cm.mk
+
+# And then tass specifics
+
+include vendor/pa/packages/tass.mk
+
+# LDPI
+
+include device/ldpi-common/ldpi.mk
+
 # Inherit AOSP device configuration
 $(call inherit-product, device/samsung/tass/full_tass.mk)
-
-
-# CM Package Extras
--include vendor/pa/packages/cm.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_tass
