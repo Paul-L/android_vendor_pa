@@ -22,7 +22,7 @@ PARANOID_BOOTANIMATION_NAME := LDPI
 OVERLAY_TARGET := pa_ldpi
 
 # Build paprefs from sources
-PREFS_FROM_SOURCE ?= true
+PREFS_FROM_SOURCE ?= false
 
 # Include ParanoidAndroid common configuration
 include vendor/pa/config/pa_common.mk
