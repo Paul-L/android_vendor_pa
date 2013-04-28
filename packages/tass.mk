@@ -1,5 +1,7 @@
 # Extra packages for tass
 PRODUCT_PACKAGES += \
-    Apollo \
+    Music \
     Trebuchet \
+    Stk \
+    MusicFX
 

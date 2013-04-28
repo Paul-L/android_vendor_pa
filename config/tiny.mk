@@ -39,8 +39,9 @@ PRODUCT_PACKAGES += \
     Camera \
     libcyanogen-dsp \
     audio_effects.conf \
-    CMFileManager \
-    HwaSettings
+    Music \
+    MusicFX \
+    Stk
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \

@@ -5,8 +5,9 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    Apollo \
-    CMFileManager \
+    Music \
+    MusicFX \
+    Stk \
     Basic \
     LockClock
 
